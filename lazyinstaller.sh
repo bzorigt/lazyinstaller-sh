@@ -89,10 +89,8 @@ sudo apt install -y unrar
 BLUE "Installing steghide..."
 sudo apt install -y steghide
 
-
 BLUE "Installing GIMP..."
 sudo apt install -y gimp
-
 
 BLUE "Installing Snap..."
 sudo apt install -y snap
@@ -102,6 +100,5 @@ sudo snap install discord
 
 BLUE "Installing Wine..."
 sudo apt install -y wine-stable
-
 
 RED "Installed Successful."
