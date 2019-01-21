@@ -101,4 +101,7 @@ sudo snap install discord
 BLUE "Installing Wine..."
 sudo apt install -y wine-stable
 
+BLUE "Installing vokoscreen..."
+sudo apt install -y vokoscreen
+
 RED "Installed Successful."
