@@ -107,4 +107,7 @@ sudo apt install -y vokoscreen
 BLUE "Installing tcpflow..."
 sudo apt install -y tcpflow
 
+BLUE "Installing sqlmap..."
+sudo apt install -y sqlmap
+
 RED "Installed Successful."
