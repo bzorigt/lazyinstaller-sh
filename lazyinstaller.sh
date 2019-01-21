@@ -104,4 +104,7 @@ sudo apt install -y wine-stable
 BLUE "Installing vokoscreen..."
 sudo apt install -y vokoscreen
 
+BLUE "Installing tcpflow..."
+sudo apt install -y tcpflow
+
 RED "Installed Successful."
