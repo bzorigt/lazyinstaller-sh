@@ -110,4 +110,7 @@ sudo apt install -y tcpflow
 BLUE "Installing sqlmap..."
 sudo apt install -y sqlmap
 
+BLUE "Installing ranger..."
+sudo apt install -y ranger
+
 RED "Installed Successful."
