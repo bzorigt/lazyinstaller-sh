@@ -34,6 +34,9 @@ sudo apt update
 BLUE "Installing git..."
 sudo apt install -y git
 
+BLUE "Installing ruby..."
+sudo apt install -y ruby
+
 BLUE "Installing gnome tweak tool..."
 sudo apt install -y gnome-tweak-tool
 
@@ -67,6 +70,9 @@ sudo apt install -y tesseract-ocr
 
 BLUE "Installing foremost..."
 sudo apt install -y foremost
+
+BLUE "Installing zsteg..."
+sudo gem install zsteg
 
 BLUE "Installing hexedit..."
 sudo apt install -y hexedit     
