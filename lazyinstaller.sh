@@ -1,5 +1,5 @@
 #!bin/bash
-
+#Author: Zorigt Batbold
 #Define colors...
 
 RED=`tput bold && tput setaf 1`
