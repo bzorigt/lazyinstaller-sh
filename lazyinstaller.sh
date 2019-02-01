@@ -118,6 +118,9 @@ sudo apt install -y sqlmap
 BLUE "Installing ranger..."
 sudo apt install -y ranger
 
+BLUE "Installing dirb..."
+sudo apt install -y dirb
+
 BLUE "Installing sonic visualiser..."
 sudo apt install -y sonic-visualiser
 
