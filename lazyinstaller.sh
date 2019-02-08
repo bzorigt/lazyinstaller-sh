@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Author: Zorigt Batbold
 #Define colors...
 
