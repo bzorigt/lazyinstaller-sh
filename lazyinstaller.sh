@@ -124,4 +124,6 @@ sudo apt install -y dirb
 BLUE "Installing sonic visualiser..."
 sudo apt install -y sonic-visualiser
 
+BLUE "Installing pngcheck..."
+sudo apt install -y pngcheck
 RED "Installed Successful."
