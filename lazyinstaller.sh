@@ -79,9 +79,6 @@ sudo apt install -y hexedit
 BLUE "Installing zbarimg..."
 sudo apt install -y zbar-tools  
 
-BLUE "Installing Virtualbox..."
-sudo apt install -y virtualbox-qt
-
 BLUE "Installing Oracle Java 8..."
 echo "" | sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
@@ -129,5 +126,8 @@ sudo apt install -y pngcheck
 
 BLUE "Downloading GHIDRA..."
 wget https://www.ghidra-sre.org/ghidra_9.0_PUBLIC_20190228.zip
+
+BLUE "Downloading VMWARE Player..."
+https://www.vmware.com/go/getplayer-linux
 
 RED "Installed Successful."
