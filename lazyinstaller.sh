@@ -128,6 +128,6 @@ BLUE "Installing pngcheck..."
 sudo apt install -y pngcheck
 
 BLUE "Downloading GHIDRA..."
-https://www.ghidra-sre.org/ghidra_9.0_PUBLIC_20190228.zip
+wget https://www.ghidra-sre.org/ghidra_9.0_PUBLIC_20190228.zip
 
 RED "Installed Successful."
