@@ -128,6 +128,6 @@ BLUE "Downloading GHIDRA..."
 wget https://www.ghidra-sre.org/ghidra_9.0_PUBLIC_20190228.zip
 
 BLUE "Downloading VMWARE Player..."
-https://www.vmware.com/go/getplayer-linux
+wget https://www.vmware.com/go/getplayer-linux
 
 RED "Installed Successful."
