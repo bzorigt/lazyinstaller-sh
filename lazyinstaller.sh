@@ -118,6 +118,14 @@ sudo apt install -y ranger
 BLUE "Installing dirb..."
 sudo apt install -y dirb
 
+BLUE "Installing xclip..."
+sudo apt install -y xclip
+grep "alias xclip" ~/.bashrc
+if [ $? -eq 1 ]
+then
+	echo "alias xclip='xclip -selection clipboard'" >> ~/.bashrc
+fi
+
 BLUE "Installing sonic visualiser..."
 sudo apt install -y sonic-visualiser
 
